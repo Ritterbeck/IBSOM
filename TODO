@@ -1,0 +1,84 @@
+Current Plan
+============
+# The order listed is the current plan for implementation
+Contribution Guidelines
+Code Style Document
+Contractual Cash Flow Engine
+Modeling Engine
+Behavioral Cash Flow Additions
+ETL Engine
+Accounting Engine
+Valuation Engine
+Forecast Engine
+Optimization Engine
+Reporting Engine
+
+Dependencies
+============
+# Versions not yet chosen; always check licenses
+GNU Scientific Library
+
+Goals
+=====
+Blog about development
+	Why did I choose the C programming language?
+	Why did I choose the Linux operating system?
+	Why did I choose the MySQL database?
+	Where are we going?
+	How are we going to get there?
+	What are the challenges we face?
+	What is the current theory?
+	Why are we not exploring machine learning and AI at the moment?
+Command Line Interface (CLI); No GUI
+Document every funtion in depth
+Internationalize software
+Modeling should be done in the software
+Value a full balance sheet in under one hour on commodity hardware
+Forecast a full balance sheet in under one hour on commodity hardware
+Optimize a full balance sheet in under one hour on commodity hardware
+
+Amortization Types
+==================
+Bullet
+Custom
+Indeterminate Maturity
+Level Payment
+Straight-Line
+
+Business Day Conventions
+========================
+# Implementation Notes: Enum and functions
+# Other Notes: Eventually obtain the 2021 ISDA document for full list
+Following
+Modified Following
+Modified Preceding
+No Adjustment
+Preceding
+
+Day Count Conventions
+=====================
+# Implementation Notes: Enum and functions
+# Other Notes: These can be broken down further
+30/360
+30/365
+Actual/360
+Actual/365
+Actual/Actual
+
+Instruments
+===========
+# Other Notes: These can be broken down further; get the hierarchy right
+Installment Loan
+Interest Rate Swap
+Line of Credit
+Non-Maturity Deposit
+Option
+Swap
+	Commodity Swap
+	Credit Default Swap
+	Currency Swap
+	Inflation Swap
+	Interest Rate Swap
+	Total Return Swap
+	Variance Swap
+	Volatility Swap
