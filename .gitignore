@@ -54,3 +54,10 @@ dkms.conf
 # Autoconf artifacts
 autom4te.cache/
 build-aux/
+
+# Mac artifacts
+.DS_Store
+
+# Doxygen artifacts
+html/
+latex/
